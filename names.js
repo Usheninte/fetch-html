@@ -1,3 +1,9 @@
+var mainContainer = document.getElementById("myData");
+
+for (var i = 0; i < data.length; i++) {
+  // append each person to our page
+}
+
 fetch('https://jsonplaceholder.typicode.com/users')
   .then(function (response) {
     // The JSON data will arrive here
