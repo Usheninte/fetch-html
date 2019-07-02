@@ -2,7 +2,7 @@
 
 
 
-var div = document.createElement("div");
+
 
 div.innerHTML = 'Name: ' + data[i].name;
 
@@ -24,6 +24,7 @@ function appendData(data) {
   var mainContainer = document.getElementById("names");
 
   for (var i = 0; i < data.length; i++) {
-    // append each person to our page
+    // append each person to page
+    var div = document.createElement("div");
   }
 }
