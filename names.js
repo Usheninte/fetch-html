@@ -1,8 +1,6 @@
-var mainContainer = document.getElementById("myData");
 
-for (var i = 0; i < data.length; i++) {
-  // append each person to our page
-}
+
+
 
 var div = document.createElement("div");
 
@@ -21,3 +19,11 @@ fetch('https://jsonplaceholder.typicode.com/users')
     .catch(function (err) {
       // If an error occured, you will catch it here
     })
+
+function appendData(data) {
+  var mainContainer = document.getElementById("names");
+
+  for (var i = 0; i < data.length; i++) {
+    // append each person to our page
+  }
+}
