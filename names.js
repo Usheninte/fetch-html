@@ -6,6 +6,10 @@ for (var i = 0; i < data.length; i++) {
 
 var div = document.createElement("div");
 
+div.innerHTML = 'Name: ' + data[i].name;
+
+mainContainer.appendChild(div);
+
 fetch('https://jsonplaceholder.typicode.com/users')
   .then(function (response) {
     // The JSON data will arrive here
